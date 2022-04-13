@@ -21,8 +21,8 @@ lb      $t3,3($t0)
 
 #sb
 li      $s0,0x10010024
-li      $s1,0x173 # 173 sayısı 1 byte'den büyüktür. Sadece 1 byte'lik kısmını yükler. 1 byte'lik kısmı 73'tür
-sb      $s1,4($s0)
+li      $s1,0x173 
+sb      $s1,4($s0) # 173 sayısı 1 byte'den büyüktür. Sadece 1 byte'lik kısmını yükler. 1 byte'lik kısmı 73'tür
    
 
 #Sonlandırma
