@@ -27,9 +27,9 @@ main:
    la       $a0,TextMesaj    # Yazdığımız veri data kısmında TextMesaj'a denke gelen String değer.
    syscall     
 
-   li       $v0,5            # Konsola Integer bir değer okuyoruz.
+   li       $v0,5            # Konsoldan Integer bir değer okuyoruz.
    syscall
-   move     $t0,$v0          # Konsola Okunan Integer değeri $to registerine atıyoruz
+   move     $t0,$v0          # Konsoldan Okunan Integer değeri $to registerine atıyoruz
 
    li       $v0,4            # Konsola String veri yazdırıyoruz.
    la       $a0,GirilenDeger # Yazdığımız veri data kısmında GirilenDeger'a denke gelen String değer.
